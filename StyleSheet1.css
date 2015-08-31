@@ -26,21 +26,19 @@
     background-color: #00ff21;
     margin: 3px;
 }
-.b4{
+.box-inline{
     display: inline-block;
 }
-.b5{
-    display: inline-block;
-}
-.b6{
+.box-group-horizontal .box{
     display: inline-block;
 }
 label{
     text-align:right;
-    width: 150px;
+    width: 90px;
     display: inline-block;
+    margin: 3px;
 }
 button{
     background-color: aqua;
-    text-align: center;
+    text-align: justify;
 }

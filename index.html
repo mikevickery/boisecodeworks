@@ -5,33 +5,95 @@
     <!--BEGIN STYLESHEETS-->
     <link rel="stylesheet" href="StyleSheet1.css" />
     <link rel="stylesheet" href="StyleSheet2.css" />
+    <link href="bootstrap-3.3.5-dist/css/bootstrap.css" rel="stylesheet" />
     <!--END STYLESHEETS-->
 </head>
 <body>
-    <section>
-        <form id="ContactForm" action="nothing right now">
-            <div>
-                    <label for="contactName">Name:</label>
-                    <input name="contactName" type="text" />
-            </div><br />
-            <div>
-                    <label name="contactEmail">Email:</label>
-                    <input name="contactEmail" type="email" />
-            </div><br />
-            <div>
-                    <label name="contactFav">Favorite:</label>
-                    <input name="contactFav" type="text" />
-            </div><br />
-            <div>
-                    <label name="contactDOB">Birthday:</label>
-                    <input name="contactDOB" type="date" />
-            </div><br />
-            <div>
-                <button type="submit">Click to Submit</button>
+    <section-deletem>
+        <hr />
+
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
+            <li class="dropdown-header">Dropdown header 1</li>
+            <li class="dropdown-header">Dropdown header 2</li>
+            <li class="dropdown-header">Dropdown header 3</li>
+            <li class="dropdown-header">Dropdown header 4</li>
+            <li class="dropdown-header">Dropdown header 5</li>
+        </ul>
+        <hr />
+        <div class="panel panel-primary">Primary Panel</div>
+        <div class="panel panel-success">Success Panel</div>
+        <div class="panel panel-info">Information Panel</div>
+        <div class="panel panel-warning">Warning Panel</div>
+        <div class="panel panel-danger">Danger Panel</div>
+        <hr />
+        <button type="button" class="btn btn-default btn-lg" aria-label="Left Align">
+            <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+        </button>
+
+        <button type="button" class="btn btn-default btn-lg">
+            <span class="glyphicon glyphicon-star" aria-hidden="true"></span> BoiseCodeWorks
+        </button>
+        <div class="panel panel-default">
+            <div class="panel-heading">Panel heading without title</div>
+            <div class="panel-body">
+                <div class="row">
+                    <h6>Thumbnail Images in the Panel Body</h6>
+                    <div class="col-xs-2 col-md-3">
+                        <a href="#" class="thumbnail">
+                            <img src="images/mikevickery.jpg" alt="Mike Vickery" />
+                        </a>
+                        <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+                    </div>
+                    <div class="col-xs-2 col-md-3">
+                        <a href="http://www.trugrocer.com" class="thumbnail" target="_blank">
+                            <img src="images/mike6.jpg" alt="Mike Vickery" />
+                        </a>
+                    </div>
+                    <div class="col-xs-2 col-md-3">
+                        <a href="#" class="thumbnail">
+                            <img src="images/mike8.jpg" alt="Mike Vickery" />
+                        </a>
+                    </div>
+                    <div class="col-xs-2 col-md-3">
+                        <a href="#" class="thumbnail">
+                            <img src="images/mike9.jpg" alt="Mike Vickery" />
+                        </a>
+                    </div>
+                </div>
             </div>
-        </form>
-    </section>
-<hr />
+        </div>
+        <hr />
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <h3 class="panel-title">Contact Form - Please Complete!</h3>
+            </div>
+            <div class="panel-body">
+                <form id="ContactForm" action="nothing right now">
+                    <div>
+                        <label for="contactName">Name:</label>
+                        <input name="contactName" type="text" />
+                    </div>
+                    <div>
+                        <label name="contactEmail">Email:</label>
+                        <input name="contactEmail" type="email" />
+                    </div>
+                    <div>
+                        <label name="contactFav">Favorite:</label>
+                        <input name="contactFav" type="text" />
+                    </div>
+                    <div>
+                        <label name="contactDOB">Birthday:</label>
+                        <input name="contactDOB" type="date" />
+                    </div><br />
+                    <div>
+                        <button type="submit">Click to Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section-deletem>
+
+<!--BOX EXAMPLES-->
     <div class="box"><span style="bottom">1</span></div>
     <div class="box"><center>2</center></div>
     <div class="box">3</div>
@@ -40,8 +102,10 @@
     <div class="b2">2</div>
     <div class="b3">3</div>
 <hr />
-    <div class="b1 b4">1</div>
-    <div class="b2 b5">2</div>
-    <div class="b3 b6">3</div>
+    <div class="box-group-horizontal">
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+    </div>
 </body>
 </html>

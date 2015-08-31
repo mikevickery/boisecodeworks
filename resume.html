@@ -3,152 +3,195 @@
 	<meta charset="UTF-8" /> 
 	<title>Mike Vickery - Resum&eacute;</title>
     <!--BEGIN STYLESHEETS-->
+    <link href="bootstrap-3.3.5-dist/css/bootstrap.css" rel="stylesheet" />
     <link rel="stylesheet" href="resumeMy.css" />
-    <!--<link rel="stylesheet" href="StyleSheet2.css" />-->
     <!--END STYLESHEETS-->
+    <meta 
 </head>
 <body>
+ <div class="container">
     <!--BEGIN HEADER-->
-<header>
-    <div class="t1">
-        <h2>Mike Vickery<br />
-        <small><i>Senior Vice President &amp; <br />
-        Chief Operating Officer</i></small><br />
-        TruGrocer Federal Credit Union</h2>
-    </div>
-    <div class="photo1">
-        <img alt="Mike Vickery" src="images/mike6.jpg" width="200" />
-    </div>
-    <hr />
-</header>
-    <!--END HEADER-->
-    <!--BEGIN SUMMARY-->
-<section><h3>Summary</h3>
-<p class="alt-p">Proven professional in the financial and IT industry with 40 years experience.
-    Responsibilities have covered all aspects of planning, accessing risk, team building,
-    problem solving and management in business. Efficiency solutions, program development
-    and coding are specialty strengths that improve financial management services to credit union members.
-    TruGrocer is a well-capitalized financial industry leader with more than $235mm in Assets
-    and 30,000 members.</p>
-</section>
-    <!--END SUMMARY-->
-    <!--BEGIN SKILLS-->
-<section><h3>Skills</h3>
-    <ul>
-        <li><b>Languages:</b> OpenVMS, Pascal, DECBasic, Fortran and PL1</li>
-        <li><b>Languages:</b> Something else ...</li>
-        <li><b>Design Patterns:</b> Something else ...</li>
-    </ul>
-</section>
-    <!--END SKILLS-->
-    <!--BEGIN EXPERIENCE-->
-    <section2>
-        <h3>Experience</h3>
-            <div>
-                <table width="100%" border="0" cellpadding="5">
-                    <tr>
-                        <td>
-                            April 1985 to Current<br />
-                            <i>TruGrocer Federal Credit Union</i><br />
-                            Sr. VP &amp; COO
-                            <p>
-                                bla bla bla fhfjd kjshsh wuieor ;lkjf erhhuf lkj js w987fy
-                                jdk riour f;lkj vhvhd asru lskek vmvid utusois wtod gslskdkkke
-                                ti wishc slxkdkkje lalksjd gjfdjksll wkekke gjjjw owpqk.
-                            </p>
-                            <!--<a href="http://www.trugrocer.com" target="_blank">Website</a>-->
-                        </td>
-                        <td colspan="170" valign="top"><br /><img src="images/trugrocerSmallLogo.jpg" alt="TruGrocer Federal Credit Union" /></td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <hr />
-                            July 1983 to March 1985<br />
-                            <i>Weyerhaeuser</i><br />
-                            Systems Analyst
-                            <p>
-                                bla bla bla fhfjd kjshsh wuieor ;lkjf erhhuf lkj js w987fy
-                                jdk riour f;lkj vhvhd asru lskek vmvid utusois wtod gslskdkkke
-                                ti wishc slxkdkkje lalksjd gjfdjksll wkekke gjjjw owpqk.
-                            </p>
-                        </td>
-                        <td valign="top"><br /><img src="images/weyerhaeuser.jpg" width="150" alt="Weyerhaeuser Timber Co." /></td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <hr />
-                            December 1979 to June 1983<br />
-                            <i>SAFECO Corporation</i><br />
-                            Data Analyst
-                            <p>
-                                bla bla bla fhfjd kjshsh wuieor ;lkjf erhhuf lkj js w987fy
-                                jdk riour f;lkj vhvhd asru lskek vmvid utusois wtod gslskdkkke
-                                ti wishc slxkdkkje lalksjd gjfdjksll wkekke gjjjw owpqk.
-                            </p>
-                        </td>
-                        <td valign="top"><br /><img src="images/safeco-logo.gif" width="150" alt="SAFECO Insurance" /></td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <hr />
-                            June 1976 to December 1979<br />
-                            <i>Idaho First National Bank</i><br />
-                            Batch Controller
-                            <p>
-                                bla bla bla fhfjd kjshsh wuieor ;lkjf erhhuf lkj js w987fy
-                                jdk riour f;lkj vhvhd asru lskek vmvid utusois wtod gslskdkkke
-                                ti wishc slxkdkkje lalksjd gjfdjksll wkekke gjjjw owpqk.
-                            </p>
-                        </td>
-                        <td valign="top"><br /><img src="images/idfirstbank.jpg" width="150" alt="Idaho First National Bank" /></td>
-                    </tr>
-                </table>
-            </div>
-</section2>
-    <!--END EXPERIENCE-->
-    <!--BEGIN EDUCATION-->
-<section>
-    <h3>Education</h3>
-    <ul>
-        <li><strong>Boise State University</strong> - MBA - May 1996</li>
-        <li><strong>University of Wisconsin</strong> Graduate School of Business and
-            Credit Union National Association Management School - intensive
-            3-year program - July 1990</li>
-        <li><strong>University of Washington</strong> - BA - June 1984</li>
-    </ul>
-</section>
-    <!--END EDUCATION-->
-    <!--BEGIN CONTACT-->
-<hr />
-<section>
-    <form id="ContactForm" action="nothing right now">
-        <div>
-            <center>
-                <label for="contactName">Name:</label>
-                <input name="contactName" type="text" />
-            </center>
-        </div><br />
-        <div>
-            <center>
-                <label name="contactEmail">Email:</label>
-                <input name="contactEmail" type="email" />
-            </center>
-        </div><br />
-        <div>
-            <center>
-                <label name="contactMessage">Message:</label>
-                <textarea name="contactMessage" type="text" rows="8"></textarea>
-            </center>
-        </div>
+    <div class="panel panel-default">
         <center>
-            <button type="submit">Click to Submit</button>
-            <button type="reset">Click to Reset</button>
+            <div class="t1 t-center inline-block">
+                <h2>
+                    Mike Vickery<br />
+                    <small><i>
+                            Senior Vice President &amp; <br />
+                            Chief Operating Officer
+                    </i>
+                    <br /><b>TruGrocer Federal Credit Union</b></small>
+                </h2>
+            </div>
+            <div class="inline-block">
+                <img alt="Mike Vickery" src="images/mike6.jpg" class="img-rounded photo1" />
+            </div>
         </center>
-    </form>
-</section>
-<hr />
-<footer><center>Contact Information: <a href="mailto:mvickery@trugrocer.com">
-    mvickery@trugrocer.com</a> | Ph: 208.385.5200</center></footer>
-    <!--END CONTACT-->
+    </div>
+    <!--END HEADER-->
+    <!------------------------------------------------------------------------------------------->
+    <!--BEGIN SUMMARY-->
+     <div class="panel panel-default">
+         <div class="panel-heading">
+             <h3 class="panel-title">
+                 <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+             Summary</h3>
+         </div>
+         <div class="panel-body t1">
+             <p>
+                 Proven professional in the financial and IT industry with 40 years experience.
+                 Responsibilities have covered all aspects of planning, accessing risk, team building,
+                 problem solving and management in business. Efficiency solutions, program development
+                 and coding are specialty strengths that improve financial management services to credit
+                 union members. TruGrocer is a well-capitalized financial industry leader with more than
+                 $235mm in Assets and 30,000 members.
+             </p>
+         </div>
+     </div>
+     <!--END SUMMARY-->
+     <!------------------------------------------------------------------------------------------->
+     <!--BEGIN SKILLS-->
+     <div class="panel panel-default">
+         <div class="panel-heading">
+             <h3 class="panel-title">
+                 <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+             Skills</h3>
+         </div>
+         <div class="panel-body t1">
+             <ul>
+                 <li><b>Languages:</b> OpenVMS, Pascal, DECBasic, Fortran and PL1</li>
+                 <li><b>Languages:</b> Something else ...</li>
+                 <li><b>Design Patterns:</b> Something else ...</li>
+             </ul>
+         </div>
+     </div>
+     <!--END SKILLS-->
+     <!------------------------------------------------------------------------------------------->
+     <!--BEGIN EXPERIENCE-->
+     <div class="panel panel-default">
+         <div class="panel-heading">
+             <h3 class="panel-title">
+                 <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+             Experience</h3>
+         </div>
+         <div class="panel-body t1">
+             <table width="100%" border="0" cellpadding="5">
+                 <tr>
+                     <td>
+                         April 1985 to Current<br />
+                         <i>TruGrocer Federal Credit Union</i><br />
+                         Sr. VP &amp; COO
+                         <p>
+                             bla bla bla fhfjd kjshsh wuieor ;lkjf erhhuf lkj js w987fy
+                             jdk riour f;lkj vhvhd asru lskek vmvid utusois wtod gslskdkkke
+                             ti wishc slxkdkkje lalksjd gjfdjksll wkekke gjjjw owpqk.
+                         </p>
+                         <!--<a href="http://www.trugrocer.com" target="_blank">Website</a>-->
+                     </td>
+                     <td colspan="170" valign="top"><br /><img src="images/trugrocerSmallLogo.jpg" alt="TruGrocer Federal Credit Union" /></td>
+                 </tr>
+                 <tr>
+                     <td>
+                         <hr />
+                         July 1983 to March 1985<br />
+                         <i>Weyerhaeuser</i><br />
+                         Systems Analyst
+                         <p>
+                             bla bla bla fhfjd kjshsh wuieor ;lkjf erhhuf lkj js w987fy
+                             jdk riour f;lkj vhvhd asru lskek vmvid utusois wtod gslskdkkke
+                             ti wishc slxkdkkje lalksjd gjfdjksll wkekke gjjjw owpqk.
+                         </p>
+                     </td>
+                     <td valign="top"><br /><img src="images/weyerhaeuser.jpg" width="150" alt="Weyerhaeuser Timber Co." /></td>
+                 </tr>
+                 <tr>
+                     <td>
+                         <hr />
+                         December 1979 to June 1983<br />
+                         <i>SAFECO Corporation</i><br />
+                         Data Analyst
+                         <p>
+                             bla bla bla fhfjd kjshsh wuieor ;lkjf erhhuf lkj js w987fy
+                             jdk riour f;lkj vhvhd asru lskek vmvid utusois wtod gslskdkkke
+                             ti wishc slxkdkkje lalksjd gjfdjksll wkekke gjjjw owpqk.
+                         </p>
+                     </td>
+                     <td valign="top"><br /><img src="images/safeco-logo.gif" width="150" alt="SAFECO Insurance" /></td>
+                 </tr>
+                 <tr>
+                     <td>
+                         <hr />
+                         June 1976 to December 1979<br />
+                         <i>Idaho First National Bank</i><br />
+                         Batch Controller
+                         <p>
+                             bla bla bla fhfjd kjshsh wuieor ;lkjf erhhuf lkj js w987fy
+                             jdk riour f;lkj vhvhd asru lskek vmvid utusois wtod gslskdkkke
+                             ti wishc slxkdkkje lalksjd gjfdjksll wkekke gjjjw owpqk.
+                         </p>
+                     </td>
+                     <td valign="top"><br /><img src="images/idfirstbank.jpg" width="150" alt="Idaho First National Bank" /></td>
+                 </tr>
+             </table>
+
+         </div>
+     </div>
+     <!--END EXPERIENCE-->
+     <!------------------------------------------------------------------------------------------->
+     <!--BEGIN EDUCATION-->
+     <div class="panel panel-default">
+         <div class="panel-heading">
+             <h3 class="panel-title">
+                 <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+            Education</h3>
+         </div>
+         <div class="panel-body t1">
+             <ul>
+                 <li><strong>Boise State University</strong> - MBA - May 1996</li>
+                 <li><strong>University of Washington</strong> - BA - June 1984</li>
+                 <li>
+                     <strong>University of Wisconsin</strong> Graduate School of Business and
+                     Credit Union National Association Management School - Intensive
+                     3-year Program - July 1988 through July 1990
+                 </li>
+             </ul>
+         </div>
+     </div>
+     <!--END EDUCATION-->
+     <!------------------------------------------------------------------------------------------->
+     <!--BEGIN CONTACT-->
+     <div class="panel panel-default">
+         <div class="panel-heading">
+             <h3 class="panel-title">
+                 <span class="glyphicon glyphicon-star" aria-hidden="true"></span>
+             Contact</h3>
+         </div>
+         <div class="panel-body t1">
+             <form id="ContactForm" action="nothing right now">
+                 <div>
+                    <label for="contactName">Name:</label>
+                    <input name="contactName" type="text" />
+                 </div>
+                 <div>
+                    <label name="contactEmail">Email:</label>
+                    <input name="contactEmail" type="email" />
+                 </div>
+                 <div>
+                    <label name="contactMessage">Message:</label>
+                    <textarea name="contactMessage" type="text" rows="8" cols="45"></textarea>
+                 </div>
+                 <button type="submit">Submit</button>
+                 <button type="reset">Reset</button>
+             </form>
+             <center><h3><a href="mailto:mvickery@trugrocer.com">
+                mvickery@trugrocer.com
+                </a> | Ph: 208.385.5200<br />
+                 Thank you for your consideration!</h3>
+             </center>
+         </div>
+     </div>
+     <!--END CONTACT-->
+</div>
+<!--END OUTSIDE CONTAINER-->
 </body>
 </html>
